@@ -5,3 +5,5 @@
 3. to run storybook, run `yarn storybook`
 
 See component `./app/_layout.tsx` to see how stories are conditionally monted (this would work with Expo-Router v1)
+
+Make sure to download and install Expo Go in your phone device
