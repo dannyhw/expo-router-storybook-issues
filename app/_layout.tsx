@@ -1,14 +1,7 @@
-import  { Slot } from "expo-router";
-import Constants from "expo-constants";
-
-const storybookEnabled = Constants.expoConfig?.extra?.STORYBOOK_ENABLED;
+import { Slot } from "expo-router";
 
 let RootApp = () => {
-    return <Slot />
+  return <Slot />;
 };
-
-if (storybookEnabled) {
-    RootApp = require("../.storybook").default;
-}
 
 export default RootApp;
